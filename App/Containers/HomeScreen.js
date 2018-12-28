@@ -2,18 +2,23 @@ import React, { Component } from 'react';
 import { Text } from 'react-native';
 import {
   Container,
-  Content,
+  Content
 } from 'native-base';
+import { CustomHeader } from '../Components';
+import styles from './Styles/HomeScreenStyles';
 
 export default class HomeScreen extends Component {
-  static navigationOptions = {
-    title: 'Home',
-  };
   render() {
     return (
       <Container>
+        <CustomHeader
+          title="Home"
+          leftButtonIcon="back"
+        />
         <Content>
-          <Text>Home Screen</Text>
+          <Text style={styles.textRegular}>
+            Home Screen
+          </Text>
         </Content>
       </Container>
     );
