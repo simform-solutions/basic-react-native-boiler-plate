@@ -18,7 +18,7 @@ const ApplicationStyles = {
   },
   content: {
     flex: 1
-  },
+  }
   
 };
 

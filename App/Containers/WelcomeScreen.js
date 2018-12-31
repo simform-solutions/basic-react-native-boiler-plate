@@ -18,10 +18,10 @@ export default class WelcomeScreen extends Component {
             Welcome to react-native. Good things are waiting for you!
           </Text>
           <Button
-            onPress={() => navigation.navigate('Home')}
+            onPress={() => navigation.navigate('Login')}
             style={styles.welcomeButton}
           >
-            <Text style={styles.welcomeButtonText}>Go to Next Screen</Text>
+            <Text style={styles.welcomeButtonText}>Go to Login</Text>
           </Button>
         </Content>
       </Container>

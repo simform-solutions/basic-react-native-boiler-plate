@@ -12,12 +12,12 @@ export default EStyleSheet.create({
     color: Colors.fire,
     textAlign: 'center'
   },
-  nextButton: {
+  logoutButton: {
     marginTop: Metrics.section,
     alignSelf: 'center'
   },
-  nextButtonText: {
+  logoutButtonText: {
     paddingHorizontal: Metrics.doubleBaseMargin,
-    color: Colors.panther
+    color: Colors.white
   }
 });

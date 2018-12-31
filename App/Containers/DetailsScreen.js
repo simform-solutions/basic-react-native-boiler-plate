@@ -7,26 +7,28 @@ import {
 } from 'native-base';
 import PropTypes from 'prop-types';
 import { CustomHeader } from '../Components';
-import styles from './Styles/HomeScreenStyles';
+import styles from './Styles/DetailsScreenStyles';
 
-export default class HomeScreen extends Component {
+export default class DetailsScreen extends Component {
   render() {
     const { navigation } =  this.props;
     return (
-      <Container style={styles.mainContainer}>
+      <Container>
         <CustomHeader
-          title="Home"
+          title="Details"
+          leftButtonIcon="back"
+          leftButtonPress={() =>  navigation.goBack()}
         />
-        <Content style={styles.content}>
+        <Content>
           <Text style={styles.textRegular}>
-            Welcome User
+            This is the next screen in the stack.
           </Text>
           <Button
-            onPress={() => navigation.navigate('Details')}
-            style={styles.nextButton}
-            success
+            onPress={() => navigation.navigate('LoginStack')}
+            style={styles.logoutButton}
+            danger
           >
-            <Text style={styles.nextButtonText}>Check out Details</Text>
+            <Text style={styles.logoutButtonText}>Logout</Text>
           </Button>
         </Content>
       </Container>
@@ -34,6 +36,6 @@ export default class HomeScreen extends Component {
   }
 }
 
-HomeScreen.propTypes = {
+DetailsScreen.propTypes = {
   navigation: PropTypes.object
 };
