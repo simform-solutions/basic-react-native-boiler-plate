@@ -1,5 +1,3 @@
-import Fonts from './Fonts';
-
 const ApplicationStyles = {
   applicationContainer: {
     flex: 1
@@ -19,7 +17,6 @@ const ApplicationStyles = {
   content: {
     flex: 1
   }
-  
 };
 
 export default ApplicationStyles;

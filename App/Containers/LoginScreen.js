@@ -40,7 +40,7 @@ export default class LoginScreen extends Component {
                 }}
                 placeholder="Username"
                 value={username}
-                onChange={u => this.setState({ username: u })}
+                onChangeText={text => this.setState({ username: text })}
                 onSubmitEditing={() => this.passwordRef._root.focus()}
                 returnKeyType="next"
               />
@@ -52,7 +52,7 @@ export default class LoginScreen extends Component {
                 }}
                 placeholder="Password"
                 value={password}
-                onChange={p => this.setState({ password: p })}
+                onChangeText={text => this.setState({ password: text })}
                 secureTextEntry
                 onSubmitEditing={() => navigation.navigate('MainStack')}
                 returnKeyType="go"
