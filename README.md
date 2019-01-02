@@ -1,21 +1,24 @@
 #  Basic React-Native Boiler Plate
 [![React Native](https://img.shields.io/badge/React%20Native-v0.57.8-blue.svg)](https://facebook.github.io/react-native/)
-[![React Navigation V2](https://img.shields.io/badge/React%20Navigation-v2.18-blue.svg)](https://reactnavigation.org/)
+[![React Navigation V2](https://img.shields.io/badge/React%20Navigation-v3.0.9-blue.svg)](https://reactnavigation.org/)
 [![js-eslint-style](https://img.shields.io/badge/lint%20compliance-eslint-brightgreen.svg?style=flat)](http://eslint.org/)
 
-* This is a very basic boilerplate of react-native. It is a starting point of a react-native application. Navigation, a UI library and responsive designs are needed in almost any react-native application. So we have added them and configured it for you.
-
-* This project is configured with [react-navigation](https://reactnavigation.org/), [react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet) and [native-base](https://nativebase.io/). It follows "eslint:recommended" so that developers using it write good code.
+* This is a very basic boilerplate of react-native. It will be very helpful to kick-start your project, because it provides some common tools you may need. They are as following:
+  * ES6 based project architecture
+  * [react-navigation](https://reactnavigation.org/): A very helpful and easily customizable navigation libray.
+  * [react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet): Every mobile application should be responsive even if we don't use flex-layout for all the styling in the application. Instead of using the StyleSheet provided by react-native, we recommend using the stylesheet provided by this library.
+  * [native-base](https://nativebase.io/): A very rich UI library which is also customizable. By using it, you don't have to create some basic UI components in your application. Further more it also provides [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) out of the box.
+  * "eslint:recommended" linting guide: Writing good and error free code is a must. eslint will help you to write good code and not to make common mistakes.
 
 ## :arrow_up: How to Setup
 
-**Step 1:** git clone this repo:
+**Step 1:** git clone this repo.
 
-**Step 2:** cd to the cloned repo:
+**Step 2:** cd to the cloned repo.
 
-**Step 3:** Rename the project bundle id and package name
+**Step 3:** Rename the project bundleId, package name and application name.
 
-**Step 4:** Install the npm modules of application with `npm i`
+**Step 4:** Install the npm modules required for the project with `npm i`
 
 
 ## :arrow_forward: How to Run App
@@ -27,7 +30,7 @@
   * for Android
     * run `npm run android`
 
-## <img src="https://eslint.org/img/logo.svg" width="50" title="eslint"> Eslint Compliant
+## <div style="display: flex;align-items: center;"><img src="https://eslint.org/img/logo.svg" width="35" title="eslint" style="vertical-align: middle;"> Eslint Compliant</div>
 
 This project adheres to "eslint:recommended" style guide. We have setup and enabled eslint for this project. We suggest that you keep following it.
 
