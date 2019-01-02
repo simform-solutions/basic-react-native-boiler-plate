@@ -30,7 +30,7 @@
   * for Android
     * run `npm run android`
 
-## <p align="center"><img src="https://eslint.org/img/logo.svg" width="40" title="eslint"> Eslint Compliant</p>
+## <p style="vertical-align: middle;"><img src="https://eslint.org/img/logo.svg" width="40" title="eslint"> Eslint Compliant</p>
 
 This project adheres to "eslint:recommended" style guide. We have setup and enabled eslint for this project. We suggest that you keep following it.
 
