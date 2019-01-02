@@ -27,7 +27,7 @@
   * for Android
     * run `npm run android`
 
-## :no_entry_sign: Eslint Compliant
+## :no_entry_sign: Eslint Compliant<img src="https://eslint.org/img/logo.svg" width="350" title="hover text">
 
 This project adheres to "eslint:recommended" style guide. We have setup and enabled eslint for this project. We suggest that you keep following it.
 
