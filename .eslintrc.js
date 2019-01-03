@@ -32,6 +32,15 @@ module.exports = {
     }],
     "object-curly-spacing": ["error", "always"],
     "eol-last": ["error", "always"],
+    "no-console": "off",
+    "no-restricted-syntax": [
+        "error",
+        {
+            "selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(warn|error|info|trace|disableYellowBox)$/]",
+            "message": "Unexpected property on console object was called"
+        }
+    ],
+    "react/no-unescaped-entities": ["error", {"forbid": ['>', '"', '}']}]
   },
   // Map from global var to bool specifying if it can be redefined
   "globals": {
