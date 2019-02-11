@@ -1,6 +1,6 @@
 #  Basic React-Native Boiler Plate
 [![React Native](https://img.shields.io/badge/React%20Native-v0.57.8-blue.svg)](https://facebook.github.io/react-native/)
-[![React Navigation V2](https://img.shields.io/badge/React%20Navigation-v3.0.9-blue.svg)](https://reactnavigation.org/)
+[![React Navigation V3](https://img.shields.io/badge/React%20Navigation-v3.0.9-blue.svg)](https://reactnavigation.org/)
 [![js-eslint-style](https://img.shields.io/badge/lint%20compliance-eslint-brightgreen.svg?style=flat)](http://eslint.org/)
 
 * This is a very basic boilerplate of react-native. It will be very helpful to kick-start your project, because it provides some common tools you may need. They are as following:
@@ -9,6 +9,7 @@
   * [react-native-extended-stylesheet](https://github.com/vitalets/react-native-extended-stylesheet): Every mobile application should be responsive even if we don't use flex-layout for all the styling in the application. Instead of using the StyleSheet provided by react-native, we recommend using the stylesheet provided by this library.
   * [native-base](https://nativebase.io/): A very rich UI library which is also customizable. By using it, you don't have to create some basic UI components in your application. Further more it also provides [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) out of the box.
   * "eslint:recommended" linting guide: Writing good and error free code is a must. eslint will help you to write good code and not to make common mistakes.
+  * There are pre-commit hooks implemented to prevent bad commits. So if you don't lint your code before commititng it, you won't be able to commit it.
 
 ## :arrow_up: How to Setup
 
