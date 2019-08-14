@@ -1,5 +1,5 @@
 #  Basic React-Native Boiler Plate
-## This boiler-plate is under maintainance. We are working on updating react-native as well as other libraries for this boiler plate.
+## This boiler-plate is under maintenance. We are working on updating react-native as well as other libraries for this boiler plate.
 
 [![React Native](https://img.shields.io/badge/React%20Native-v0.59.8-blue.svg)](https://facebook.github.io/react-native/)
 [![React Navigation V3](https://img.shields.io/badge/React%20Navigation-v3.0.9-blue.svg)](https://reactnavigation.org/)
